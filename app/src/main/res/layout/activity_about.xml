@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionsActivity"
+    android:background="@drawable/home_puzzle">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Performs routine transactions, assists team activities, interacts with stakeholders to solve problems or resolve complaints, gathers information, consults with management on actions to be taken in order to support short-term operations and ensure compliance."
+        android:justificationMode="inter_word"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/home_btn_backgrount"
+        android:padding="15dp"
+        android:textColor="@color/white"/>
+</FrameLayout>

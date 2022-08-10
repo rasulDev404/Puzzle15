@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Puzzle15</string>
+    <string name="sound">Sound</string>
+    <string name="options">Options</string>
+    <string name="you_win">You win</string>
+    <string name="your_step">Your step:</string>
+    <string name="finish">Finish</string>
+</resources>

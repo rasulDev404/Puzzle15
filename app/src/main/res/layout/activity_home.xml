@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_puzzle"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_Continue"
+                style="@style/home_btn"
+                android:text="Continue"
+                android:padding="8dp"
+                android:visibility="gone"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_play"
+                style="@style/home_btn"
+                android:text="Play" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_options"
+                style="@style/home_btn"
+                android:text="Options" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_about"
+                style="@style/home_btn"
+                android:text="About" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_exit"
+                style="@style/home_btn"
+                android:text="Exit" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
